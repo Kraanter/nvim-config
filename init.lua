@@ -116,6 +116,9 @@ vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
 
+-- Set language to English
+vim.cmd 'language en_US'
+
 -- Enable break indent
 vim.opt.breakindent = true
 
