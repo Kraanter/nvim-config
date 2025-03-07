@@ -8,6 +8,7 @@ return {
     dashboard = { enabled = true },
     explorer = { enabled = true },
     indent = { enabled = true },
+    image = { enabled = true },
     input = { enabled = true },
     notifier = {
       enabled = true,
@@ -24,6 +25,7 @@ return {
         -- wo = { wrap = true } -- Wrap notifications
       },
     },
+    terminal = { enabled = true },
   },
   keys = {
     -- Top Pickers & Explorer
